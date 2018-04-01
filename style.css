@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#me img {
+  border-radius: 50%;
+}
