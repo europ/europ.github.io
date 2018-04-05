@@ -1,9 +1,27 @@
-body {
-  background-color: black;
-  color: white;
+body, html {
+    height: 100%;
+}
+
+header {
   text-align: center;
 }
 
+#me h1 {
+  color: #eaeaea;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 #me img {
+  border: 10;
+  border-style: solid;
+  border-color: black;
   border-radius: 50%;
+}
+
+.bg {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("img/background.png");
 }
