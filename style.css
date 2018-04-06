@@ -25,3 +25,11 @@ header {
   background-repeat: no-repeat;
   background-image: url("img/background.png");
 }
+
+#about li {
+  list-style-type: none;
+}
+
+#about img:hover {
+    transform: scale(1.2);
+}
