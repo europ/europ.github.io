@@ -17,3 +17,45 @@ canvas {
   background-position: 50% 50%;
   z-index: -1;
 }
+
+.container {
+  margin-top: 11%;
+  width: 34em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: rgba(25, 25, 25, 0.6);
+  background-opacity: 0.5;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+#me{
+  border-bottom: 1px solid white;
+  margin-bottom: 2em;
+}
+
+#me h1 {
+  color: #eaeaea;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#me img {
+  border: 10;
+  border-style: solid;
+  border-color: black;
+  border-color: #bcbcbc;
+  border-radius: 50%;
+}
+
+#about li {
+  list-style-type: none;
+  margin-bottom: 0.5em;
+}
+
+#about li:last-child {
+  margin-bottom: 0em;
+}
+
+#about img:hover {
+    transform: scale(1.2);
+}
