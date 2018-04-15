@@ -1,6 +1,12 @@
 <!DOCTYPE html>
-
 <html>
+
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+      particlesJS.load('particles-js', 'particlesjs.json', function() {
+          console.log('callback - particles.js config loaded');
+      });
+  </script>
 
   <head>
     <meta charset="UTF-8">
@@ -8,28 +14,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
-  <body class="bg">
-    <header>
-      <div id="me">
-        <img src="img/quokka.jpg" alt="img/quokka.jpg"/>
-        <h1>Adrián Tóth</h1>
-      </div>
-      <div id="about">         
-        <li>
-          <a href="https://github.com/europ">
-            <img src="img/github.png" alt="img/github.png" width="110px" height="51"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://sourcerer.io/europ">
-            <img src="img/sourcerer.png" alt="img/sourcerer.png" width="40px" height="46px"/>
-          </a>
-        </li>
-      </div>
-    </header>
-
-    <footer>
-    </footer>
-  </body>
+  <div id="particles-js"></div>
 
 </html>
