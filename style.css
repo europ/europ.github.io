@@ -59,3 +59,13 @@ canvas {
 #about img:hover {
     transform: scale(1.2);
 }
+
+#button_hideshow {
+  margin-top: 4px;
+  margin-left: 5px;
+}
+
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
+    background-color: rgba(80, 80, 80, 0.6);
+    border-color: rgba(80, 80, 80, 0.6);
+}
