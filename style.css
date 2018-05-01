@@ -18,7 +18,7 @@ canvas {
   z-index: -1;
 }
 
-.container {
+#content {
   margin-top: 5%;
   width: 34em;
   padding-top: 1em;
@@ -29,17 +29,17 @@ canvas {
   border-radius: 100px;
 }
 
-#me{
+.me{
   border-bottom: 1px solid white;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
-#me h1 {
+.me h1 {
   color: #eaeaea;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#me img {
+.me img {
   border: 10;
   border-style: solid;
   border-color: black;
@@ -47,16 +47,12 @@ canvas {
   border-radius: 50%;
 }
 
-#about li {
-  list-style-type: none;
-  margin-bottom: 0.5em;
+.about img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
-#about li:last-child {
-  margin-bottom: 0em;
-}
-
-#about img:hover {
+.about img:hover {
     transform: scale(1.2);
 }
 
