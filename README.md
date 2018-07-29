@@ -1,4 +1,3 @@
-# [europ.github.io](https://europ.github.io/)
-
-### Used tools
-* [particles.js](https://github.com/VincentGarreau/particles.js)
+<h3 align="center">
+  <a href="https://europ.github.io/">europ.github.io</a>
+</h3>
