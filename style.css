@@ -26,8 +26,8 @@ canvas {
 
 #content {
   height: auto;
-  width: 34em;
-  padding-top: 1em;
+  width: 25em;
+  padding-top: 2em;
   padding-bottom: 1em;
   border-width: 2px;
   border-style: solid;
@@ -42,16 +42,17 @@ canvas {
 }
 
 .me h1 {
+  padding-top: 7px;
   color: #eaeaea;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .me img {
-  border: 10;
+  border: 3px;
   border-style: solid;
   border-color: black;
   border-color: #bcbcbc;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .about img {
